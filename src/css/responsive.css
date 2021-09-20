@@ -1,0 +1,214 @@
+@media only screen and (min-width : 200px) and (max-width : 600px){
+    .menu{
+        text-align: right;
+    }
+    .nav-link{
+        color: #fff!important;
+        margin-right: 5px;
+        border: 1px solid #000000;
+    }
+    .search-bar{
+        top: 110px;
+        width: 100%;
+      }
+    .ttt{
+    font-size: smaller;
+    margin-right: 10px;
+    }
+
+
+    .containerr{
+        grid-gap: 1rem;
+        width: 100%;
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        padding:2rem;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px #0f0303;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .carousel-inner{
+        height: 20vh;
+        background-color: #22af8c;
+        border-bottom: 1px solid #000000;
+    }
+    .nav-link{
+        color: #fff!important;
+        margin-right: 5px;
+        border: 1px solid #000000;
+    }
+    .smallscreen{
+        display: none;
+    }
+    form{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    form input{
+        font-size: 14px!important;
+    }
+    .menu{
+        text-align: right;
+    }
+    .containerr{
+        grid-gap: 1rem;
+        width: 100%;
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px #0f0303;
+    }
+}
+
+@media only screen and (max-width : 900px){
+    .carousel-inner{
+        height: 20vh;
+        background-color: #22af8c;
+        border-bottom: 1px solid #000000;
+    }
+    .nav-link{
+        color: #fff!important;
+        margin-right: 5px;
+        border: 1px solid #000000;
+    }
+    form{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .offcanvas-header{
+        display: block;
+    }
+    .navbar-collapse{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: black;
+        transition: visibility .2s ease-in-out;
+    }
+    .containerr{
+        grid-gap: 1rem;
+        width: 100%;
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px #0f0303;
+    }
+    .navbar-collapse.show{
+        visibility: visible;
+        transform: translateX(-100%);
+        width : 80%;
+    }
+    .btn-close{
+        background-color: transparent;
+        border-color: transparent;
+        color:white;
+        font-size: 22px;
+    }
+    .menu{
+        text-align: right;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .containerl{
+		grid-template-columns: 1fr;
+	}
+
+	.img1{
+		display: none;
+	}
+
+	.login-content{
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width : 1200px){
+    
+}
+
+@media screen and (max-width: 1050px){
+	.containerl{
+		grid-gap: 5rem;
+	}
+    .containerr{
+        grid-gap: 1rem;
+        width: 100%;
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 2rem;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px #0f0303;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+	.form{
+		width: 100%;
+
+	}
+    .containerl{
+		grid-gap: 1rem;
+	}
+
+    .containerr{
+        grid-gap: 1rem;
+        width: 100%;
+        display: grid;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 2rem;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px #0f0303;
+    }
+
+	.login-content h2{
+        font-size: 2.4rem;
+        margin: 8px 0;
+	}
+
+	.img1 img{
+		width: 400px;
+	}
+   
+}
+
+@media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }
